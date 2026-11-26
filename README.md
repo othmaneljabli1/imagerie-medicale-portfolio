@@ -1,16 +1,16 @@
-# Vision industrielle – Portfolio
+# Imagerie médicale – Portfolio
 
-Projets de vision par ordinateur appliqués au contrôle qualité industriel, réalisés en parallèle de ma formation d'ingénieur à Télécom Saint-Étienne (option Systèmes d'imagerie numérique).
+Projets de traitement d'images médicales et d'IA, réalisés en parallèle de ma formation d'ingénieur à Télécom Saint-Étienne (option Systèmes d'imagerie numérique).
 
 ## Contenu
 | Dossier | Sujet | Statut |
 |---|---|---|
-| 01-bases-numpy | L'image comme tableau de pixels | 🔄 En cours |
-| 02-opencv-bases | Lecture, espaces couleur, transformations | ⏳ |
-| 03-filtres | Seuillage, filtres, morphologie | ⏳ |
-| 04-compteur-pieces | Comptage d'objets par contours | ⏳ |
-| 05-mesure-objets | Mesure dimensionnelle (pixels → mm) | ⏳ |
-| 06-detection-defauts | Détection de défauts par comparaison | ⏳ |
+| 01-bases-numpy | L'image comme tableau, uint8 / int16, fenêtrage CT | ✅ |
+| 02-opencv-bases | Lecture d'images et de fichiers DICOM | ⏳ |
+| 03-filtres | Débruitage, seuillage, morphologie | ⏳ |
+| 04-comptage-cellules | Comptage de cellules en microscopie | ⏳ |
+| 05-mesure-lesions | Mesure en mm à partir des métadonnées DICOM | ⏳ |
+| 06-segmentation-classique | Segmentation d'organes (poumons sur scanner) | ⏳ |
 
 ## Stack
-Python 3.12 · NumPy · OpenCV · uv
+Python 3.12 · NumPy · OpenCV · pydicom · scikit-image · uv
